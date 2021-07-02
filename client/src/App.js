@@ -7,12 +7,33 @@ import Footer from "./components/Footer";
 // darkGreen: #5B6C5D
 // ocean: #59C9A5
 // aqua: #56E39F
+const bodyStyle = {
+  background: "#3B2C35",
+  border: "5px solid #59C9A5",
+  width: "100%",
+  display: "flex",
+  flexDirection: "column",
+};
+
+const headerStyle = {
+  height: "85%",
+  flexGrow: "1",
+};
+
+const footerStyle = {
+  position: "fixed",
+  left: "0",
+  bottom: "0",
+  width: "100%",
+};
 
 function App() {
   return (
     <>
-      <Header />
-      <Footer />
+      <body style={bodyStyle}>
+        <Header style={headerStyle} />
+        <Footer style={footerStyle} />
+      </body>
     </>
   );
 }
