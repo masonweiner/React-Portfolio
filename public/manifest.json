@@ -1,0 +1,8 @@
+{
+  "short_name": "Portfolio",
+  "name": "React Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#003366",
+  "background_color": "#493B2A"
+}
